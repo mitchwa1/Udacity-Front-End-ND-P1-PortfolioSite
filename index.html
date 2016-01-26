@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>
+    <title>Mitch's Portfolio Page</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="import" href="elements/hello-world.html"
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,100' rel='stylesheet'>
+    <meta name="viewport" content="initial-scale=1">
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <div class="grid">
+        <div class="container-1">
+            <div class="row-Top">
+                <div class="col-md-6">
+                    <img class="title-Logo" src="images/Udacity_Logo.svg" alt="udacity logo">
+                </div>
+                <div class="col-md-6 text-Right-Upper">
+                    <header>
+                        <h1>Mitch Andrus</h1>
+                        <h3>Front-end Ninja</h3>
+                    </header>
+                </div>
+            </div>
+            <div class="row-Main-Pic col-md-12">
+                <img class="img-responsive" src="http://placekitten.com/1200/450" alt="kitten placeholder picture">
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="text-muted">Featured Work</h2>
+                </div>
+            </div>
+            <div class="row text-center">
+                <article class="projects">
+                    <div class="col-md-4">
+                        <img src="http://placekitten.com/350/300" alt="picture of Appify project">
+                        <h3 class="proj-Title">Appify</h3>
+                        <p class="proj-Links">
+                            <a href="http://github.com">Link to Project</a>
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="http://placekitten.com/350/300" alt="picture of Sunflower project">
+                        <h3 class="proj-Title">Sunflower</h3>
+                        <p class="proj-Links">
+                            <a href="http://github.com">Link to project</a>
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="http://placekitten.com/350/300" alt="picture of Bokeh project">
+                        <h3 class="proj-Title">Bokeh</h3>
+                        <p class="proj-Links">
+                            <a href="http://github.com">Link to project</a>
+                        </p>
+                    </article>
+                    <hello-world></hello-world>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
