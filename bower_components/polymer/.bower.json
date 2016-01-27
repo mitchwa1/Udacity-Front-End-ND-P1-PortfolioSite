@@ -33,6 +33,5 @@
   },
   "_source": "git://github.com/Polymer/polymer.git",
   "_target": "~1.2.3",
-  "_originalSource": "polymer",
-  "_direct": true
+  "_originalSource": "Polymer/polymer"
 }

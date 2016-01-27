@@ -1,0 +1,37 @@
+<link rel="import" href="../bower_components/google-map/google-map.html">
+
+<dom-module id="Where-Ive-Lived">
+
+  <template>
+    <style>    
+      :host {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+      }
+      #google_map {
+        width: calc(98% - 35px);
+        height: 375px;
+        display: block;
+        left: 25px;
+        top: 0px;
+        position: relative;
+      }
+    </style>
+    <google-map latitude="41.00000000000001" longitude="-94.00000000000001" zoom="4" id="google_map">
+      <google-map-marker longitude="-93.3315183" latitude="44.9706756" id="google_map_marker"></google-map-marker>
+      <google-map-marker longitude="-91.3569974" latitude="43.8224059" id="google_map_marker1"></google-map-marker>
+      <google-map-marker longitude="-105.4155498" latitude="39.7640472" id="google_map_marker2"></google-map-marker>
+    </google-map>
+  </template>
+
+  <script>
+
+    Polymer({
+      
+    });
+
+  </script>
+
+</dom-module>

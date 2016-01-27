@@ -1,0 +1,25 @@
+{
+  "name": "Final",
+  "homepage": "https://github.com/mitchwa1/Udacity-Front-End-ND-P1-PortfolioSite",
+  "authors": [
+    "mitchwa1 <mitchwa1@comcast.net>"
+  ],
+  "description": "Project 1 polymer test",
+  "main": "bootstrap-prestructure.html",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6",
+    "polymer": "Polymer/polymer#~1.2.3",
+    "iron-elements": "PolymerElements/iron-elements#~1.0.7",
+    "paper-elements": "PolymerElements/paper-elements#~1.0.7",
+    "google-map": "GoogleWebComponents/google-map#~1.1.9"
+  }
+}
