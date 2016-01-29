@@ -4,17 +4,17 @@
 	color: #747704;
 }
 
-.col-md-6 {
+.text-top {
 	min-width: 50%;
 }
 
-.grid {
+.main {
 	margin: 0 auto;
 	max-width: 1200px;
 	width: calc(98% - 20px);
 }
 
-.row-Top {
+.row-top {
 	height: calc(24% - 20px);
 	max-height: 200px;
 	border-bottom: 3px solid #bcbbbb;
@@ -23,7 +23,7 @@
 	display: flex;
 }
 
-.title-Logo {
+.title-logo {
 	margin-top: 20px;
 	margin-bottom: 20px;
 	height: calc(95% - 20px);
@@ -40,11 +40,11 @@ h1 {
 h3 {
 	font-size: 2.5em;
 	font-weight: 300;
-	margin-top: 0px;
+	margin-top: 0;
 	margin-bottom: 10px;
 }
 
-.text-Right-Upper {
+.text-right-upper {
 	text-transform: uppercase;
 	text-align: right;
 	max-height: 150px;
@@ -63,39 +63,43 @@ h3 {
 	font-weight: 100;
 }
 
-.Map-Title {
-	margin: 0px;
+.map-title {
+	margin: 0;
 	text-align: center;
 	color: #bcbbbb;
 	font-style: italic;
 }
 
-.Map-Where-Ive-Lived {
+.map-where-ive-lived {
 	padding-top: 20px;
-	padding-left: 0px;
-	padding-right: 0px;
+	padding-left: 0;
+	padding-right: 0;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.proj-pics {
+	display: inline-flex;
 }
 
 @media (max-width: 480px) {
 	.text-muted {
 		font-size: 1.5em;
-		padding-top: 0px;
-		padding-bottom: 0px;
+		padding-top: 0;
+		padding-bottom: 0;
 	}
 
 	h1 {
-		font-size: 2.25em;
+		font-size: 2em;
 	}
 
 	h3 {
-		font-size: 1.1em;
-		margin-top: 0px;
+		font-size: 1em;
+		margin-top: 0;
 		margin-bottom: 5px;
 	}
 
-	.title-Logo {
+	.title-logo {
 		max-width: 100px;
 		max-height: 100px;
 	}
@@ -104,7 +108,7 @@ h3 {
 @media (min-width: 481px) and (max-width: 650px) {
 	.text-muted {
 		font-size: 2em;
-		padding-top: 0px;
+		padding-top: 0;
 		padding-bottom: 5px;
 	}
 
@@ -113,19 +117,19 @@ h3 {
 	}
 
 	h3 {
-		font-size: 1.5em;
-		margin-top: 0px;
+		font-size: 1.4em;
+		margin-top: 0;
 		margin-bottom: 10px;
 	}
 
-	.title-Logo {
+	.title-logo {
 		max-width: 125px;
 		max-height: 125px;
 	}
 }
 
 @media (min-width: 651px) and (max-width: 1060px) {
-	.text-Right-Upper {
+	.text-right-upper {
 		text-transform: uppercase;
 		max-height: 150px;
 		padding-top: 0.5em;
@@ -143,31 +147,31 @@ h3 {
 
 	h3 {
 		font-size: 2em;
-		margin-top: 0px;
+		margin-top: 0;
 		margin-bottom: 10px;
 	}
 }
 
 @media (min-width: 1061px) and (max-width: 1200px) {
-	.text-Right-Upper {
+	.text-right-upper {
 		text-transform: uppercase;
 		max-height: 150px;
 		padding-top: 1em;
 	}
 
 	h1 {
-		font-size: 4.5em;
+		font-size: 4.3em;
 	}
 
 	h3 {
-		font-size: 3em;
-		margin-top: 0px;
+		font-size: 2.8em;
+		margin-top: 0;
 		margin-bottom: 10px;
 	}
 }
 
 @media (min-width: 1201px) {
-	.text-Right-Upper {
+	.text-right-upper {
 		min-height: 190px;
 	}
 }
